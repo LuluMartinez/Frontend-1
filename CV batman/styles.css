@@ -1,16 +1,10 @@
-body {
-    background-color: #FFFFFF;
-}
+/* Header */
 header {
     background-color: #E5E5E5;
 }
 #logobatman{
     display: block;
     margin: auto;
-}
-
-footer {
-    background-color: #005677;
 }
 h1{
     text-align: center;
@@ -19,7 +13,12 @@ h1{
     line-height: 84.69%;
     height: 30px;
     letter-spacing: 0.2ch;
+}
 
+/* MAIN */
+main {
+    max-width: 800px;
+    margin: auto;
 }
 h1, h2 {
     color:#005677;
@@ -37,13 +36,24 @@ h1, h2 {
 .negrita {
     font-weight: bold;
 }
-h3 {
+dd, dt, li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #005677;
+}
+p {
     font-family: 'Times New Roman';
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
-    line-height: 84.69%;
+    font-size: 24px;
     color: #EEEEEE;
     text-align: center;
 }
-
+.imgredes {
+    width: 20px;
+    height: 20ox;
+}
